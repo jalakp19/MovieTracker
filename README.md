@@ -1,16 +1,37 @@
-# movie_list_app
+# Movie Tracker
 
-A new Flutter project.
+Mobile application built using Fluttr, Firebase and sqflite(SQL package for local storage)
 
-## Getting Started
+## Images
 
-This project is a starting point for a Flutter application.
+<img src="images/login_screen.jpg" height="400">   <img src="images/registration_screen.jpg" height="400">   <img src="images/watched_collection.jpg" height="400">   <img src="images/movies_collection.jpg" height="400">   <img src="images/add_movie.jpg" height="400">   <img src="images/profile_screen.jpg" height="400">   <img src="images/search.jpg" height="400">   <img src="images/movie_page.jpg" height="400">
 
-A few resources to get you started if this is your first Flutter project:
+## About
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Login Screen: You can login with email and password as well as google. Upon forgot password, you will be sent a password reset link
+- Register Screen: You can register through email as well as google. You will be sent an email verification link. Once verified, only then you will be able to logIn
+- Watched Screen: All the watched movies would appear here. You can remove the movie from the watched list as well
+- MyMovies Screen: All the movies added by the user would appear here. You can search for any book by:
+   - Movie name
+   - Directors's name
+   - Release year
+   - Imdb rating
+- Add Movie Screen: Allows user to add a movie to their collection 
+- Movie Screen: Displays the movie details and provides the functionality to edit and delete the movie.
+- Profile Screen: Displays the user details as well as an animated progress bar which displays the number of movies watched and the number of movies remaining.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- Flutter
+- Firebase
+    - Firebase Auth (lib/AUTH/auth.dart)
+- SQL
+    - sqflite (lib/CRUD/database.dart) 
+   
+---
+   
+>Feel free to use the code in your own Flutter project
+
+## Author
+
+**- Jalak Patel (https://github.com/jalakp19)**
