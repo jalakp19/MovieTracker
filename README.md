@@ -1,6 +1,6 @@
 # Movie Tracker
 
-Mobile application built using Fluttr, Firebase and sqflite(SQL package for local storage)
+Mobile application built using Flutter, Firebase and sqflite(SQL package for local storage)
 
 ## Images
 
